@@ -216,7 +216,7 @@ argument_specs:
                 type: "str"
             keycloak_jdbc_engine:
                 default: "postgres"
-                description: "Backend database flavour when db is enabled: [ postgres, mariadb, sqlserver ]"
+                description: "Backend database flavour when db is enabled: [ postgres, mariadb, sqlserver, oracle ]"
                 type: "str"
             keycloak_db_user:
                 default: "keycloak-user"
