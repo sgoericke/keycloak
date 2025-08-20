@@ -289,7 +289,7 @@ argument_specs:
                 type: "bool"
             keycloak_quarkus_db_engine:
                 default: "postgres"
-                description: "Database engine [mariadb,postres,mssql]"
+                description: "Database engine [mariadb,postres,mssql,oracle]"
                 type: "str"
             keycloak_quarkus_db_user:
                 default: "keycloak-user"
