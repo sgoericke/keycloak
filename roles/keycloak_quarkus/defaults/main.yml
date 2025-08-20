@@ -148,7 +148,7 @@ keycloak_quarkus_cache_remote_tls_enabled: false
 keycloak_quarkus_cache_remote_sasl_mechanism: SCRAM-SHA-512
 
 
-### database backend engine: values [ 'postgres', 'mariadb' ]
+### database backend engine: values [ 'postgres', 'mariadb', 'oracle' ]
 keycloak_quarkus_db_engine: postgres
 ### database backend credentials
 keycloak_quarkus_db_user: keycloak-user
@@ -168,6 +168,8 @@ keycloak_quarkus_default_jdbc:
     url: 'jdbc:sqlserver://localhost:1433;databaseName=keycloak;'
     version: 12.8.1
     driver_jar_url: "https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/mssql-jdbc-12.8.1.jre11.jar"
+  oracle:
+    url: 'jdbc:oracle:thin:@keycloak?TNS_ADMIN=/etc/'
 ### logging configuration
 keycloak_quarkus_log: file
 keycloak_quarkus_log_level: info
