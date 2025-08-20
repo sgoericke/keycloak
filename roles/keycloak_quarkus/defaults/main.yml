@@ -170,6 +170,7 @@ keycloak_quarkus_default_jdbc:
     driver_jar_url: "https://repo1.maven.org/maven2/com/microsoft/sqlserver/mssql-jdbc/12.8.1.jre11/mssql-jdbc-12.8.1.jre11.jar"
   oracle:
     url: 'jdbc:oracle:thin:@keycloak?TNS_ADMIN=/etc/'
+    version: 10
 ### logging configuration
 keycloak_quarkus_log: file
 keycloak_quarkus_log_level: info
